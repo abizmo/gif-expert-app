@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGridItem Tests should render the component 1`] = `
+<div
+  className="card animate__animated animate__fadeInBottomLeft"
+>
+  <img
+    alt="Little turds"
+    src="https://media1.giphy.com/media/xUA7aLrdFvkS3BeaEE/giphy.gif?cid=e23a9f3bdbm7ugc2t3ryb9qt5b2kazo22d1hf6mq4oxudl8k&rid=giphy.gif&ct=g"
+  />
+  <div
+    className="info"
+  >
+    <h5>
+      Little turds
+    </h5>
+    <p>
+      teamcoco
+    </p>
+  </div>
+</div>
+`;
