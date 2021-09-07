@@ -1,0 +1,1 @@
+GET http://api.giphy.com/v1/gifs/search?q=kids&limit=10&api_key=RfaGAGUIDcvBs78AkJ4VmlNqBM8078xg HTTP/1.1
