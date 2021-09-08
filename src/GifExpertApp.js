@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
+import PropTypes from 'prop-types'
 
 import AddCategory from './components/AddCategory'
 import GifGrid from './components/GifGrid'
-const initialState = ['fail']
 
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(initialState)
+const GifExpertApp = ({ defaultState }) => {
+  const [categories, setCategories] = useState(defaultState)
 
   return (
     <div>
@@ -21,6 +21,14 @@ const GifExpertApp = () => {
       </ol>
     </div>
   )
+}
+
+GifExpertApp.propTypes = {
+  defaultState: PropTypes.arrayOf(PropTypes.string),
+}
+
+GifExpertApp.defaultProps = {
+  defaultState: []
 }
 
 export default GifExpertApp
