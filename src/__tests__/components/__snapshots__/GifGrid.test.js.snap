@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid Tests should render the component with items 1`] = `
+<div>
+  <h3>
+    music
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="123"
+      img="http://localhost/puppy.jpg"
+      key="123"
+      title="puppy"
+      username="willy"
+    />
+  </div>
+</div>
+`;
+
+exports[`GifGrid Tests should render the component without items 1`] = `
+<div>
+  <h3>
+    music
+  </h3>
+  <p
+    className="animate__animated animate__pulse"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</div>
+`;
